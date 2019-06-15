@@ -48,4 +48,4 @@ A = data.frame(A$Limit)
 newcol = ifelse(A$Limit<3087,1,ifelse(A$Limit<5876.5,2,5))
 Q = data.frame(A$Limit,A$income,newcol)
 str(Q)
-
+# adding comment
